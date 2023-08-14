@@ -1,13 +1,17 @@
 <style>
 .alert{
-  border-color: skyblue;
+    animation: changeShadowColor 10s infinite;
+    border-color: skyblue;
+    padding: 4px;
+    border: 4px;
+    margin: 4px;
 }
 .color-changing-shadow {
     padding: 0px;
     border: 0px;
     margin: 0px;
     border-radius: 50px;
-    background-color: transparent 0.9;
+    background-color: transparent 1;
     /* Color de fondo del div */
     box-shadow: 0 0 10px #FF00FF;
     /* Sombras inicial (neon rosa) */
